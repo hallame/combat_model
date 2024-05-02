@@ -17,7 +17,6 @@ parameter Real d2 = 0.75;
 equation
   der(y11) = -a*y11 - b*y21 + 2*sin(4*time);
   der(y21) = -c*y11 - d*y21 + 2*cos(4*time);
-  
 equation
   der(y12) = -a2*y12 - b2*y22 + 1.5*sin(time);
   der(y22) = -c2*y12*y22 - d2*y22 + 1.5*cos(time);
